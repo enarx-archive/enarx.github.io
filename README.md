@@ -6,9 +6,9 @@ They should:
 
  * be confidential from the host and other workloads;
  * be able to run on
- ** multiple silicon architectures; 
- ** multiple server types;
- ** public cloud or private cloud;
+   * multiple silicon architectures; 
+   * multiple server types;
+   * public cloud or private cloud;
  * employ serverless deployment and execution mechanisms.
 
 The mechanism itself should be capable of being FIPS-certified.
