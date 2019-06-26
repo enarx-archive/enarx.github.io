@@ -17,10 +17,6 @@ The mechanism itself should be capable of being FIPS-certified.
 
 Building the various components of Enarx is currently complex: we are working on this.  Please contact us for help.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Authors
 
 * **Mike Bursell** - *Initial work* - [MikeCamel](https://github.com/MikeCamel)
