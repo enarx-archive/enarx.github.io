@@ -15,6 +15,8 @@ The mechanism itself should be capable of being FIPS-certified.
 
 ## Getting Started
 
+For more information, please try our [wiki](https://github.com/enarx/enarx.github.io/wiki), which includes further details on how to get more information.  It's also where we plan to keep up-to-date project information.
+
 Building the various components of Enarx is currently complex: we are working on this.  Please contact us for help.
 
 ## Authors
