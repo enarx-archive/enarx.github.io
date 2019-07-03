@@ -24,7 +24,11 @@ a {
 }
 
 a:hover {
-  background-color: #111111;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.25s;
+  background-color: white;
+  border-radius: 2px;
+  color: black;
 }
 
 .footer {
