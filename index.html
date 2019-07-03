@@ -8,19 +8,40 @@
       background-attachment: fixed;
       background-repeat: no-repeat;
     }
-    h1 {
-      text-align: center;
+    #linklist {
+      list-style: none;
       color: white;
-      font-size: 1em;
       font-variant: small-caps;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 75px;
+      width: 35em;
+      font-size:1em;
+      margin: auto;
+      margin-top: calc(100vh - 3em);
+    }
+    #linklist li {
+      float: left;
+    }
+    #linklist li a {
+      color: white;
+      padding: 1em;
+      text-decoration: none;
+    }
+    #linklist li a:hover {
+      background-color: #111111;
+    }
+    #linklist li:not(:last-child):after {
+      content: "· ";
     }
     </style>
   </head>
   <body>
-    <h1><a href="https://opensource.com/article/19/5/enarx-security">Enarx</a> | <a href="https://github.com/enarx">code</a> | <a href="https://github.com/enarx/enarx.github.io/wiki">documentation</a> | <a href="https://github.com/enarx/enarx.github.io/wiki/Enarx-FAQ">FAQ</a> | community</h1>
+ 
+    <ol id="linklist">
+      <li><a href="https://opensource.com/article/19/5/enarx-security">Enarx</a></li>
+      <li><a href="https://github.com/enarx">code</a></li>
+      <li><a href="https://github.com/enarx/enarx.github.io/wiki">documentation</a></li>
+      <li><a href="https://github.com/enarx/enarx.github.io/wiki/Enarx-FAQ">FAQ</a></li>
+      <li><a href="#">community</a></li>
+    </ol>
+
   </body>
 </html>
