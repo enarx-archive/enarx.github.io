@@ -1,39 +1,49 @@
 @charset "UTF-8";
 
+* {
+  color: inherit;
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
   background-image: url('white.svg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-color: black;
-  margin: 0px;
-}
-
-#linklist {
-  margin: calc(100vh - 3em) auto 0px auto;
-  list-style: none;
-  font-size: 1em;
   color: white;
-  width: 35em;
 }
 
-#linklist li {
-  float: left;
-}
-
-#linklist li a {
+a {
   text-transform: lowercase;
   font-variant: small-caps;
   text-decoration: none;
   padding: 0.5em;
   margin: 0.5em;
-  color: white;
 }
 
-#linklist li a:hover {
+a:hover {
   background-color: #111111;
 }
 
-#linklist li:not(:last-child):after {
+.footer {
+  margin: 2em 0px 2em 0px;
+  text-align: center;
+  position: fixed;
+  display: block;
+  bottom: 0px;
+  width: 100%;
+}
+
+.linklist {
+  list-style: none;
+}
+
+.linklist li {
+  display: inline-block;
+}
+
+.linklist li:not(:last-child):after {
   content: "· ";
 }
