@@ -53,6 +53,13 @@ a:hover {
   display: block;
   bottom: 0px;
   width: 100%;
+
+  animation: footerin 1s ease-in-out 0.5s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes footerin {
+  from { opacity: 0; transform: translate(0, 3em); }
 }
 
 .linklist {
