@@ -64,5 +64,6 @@ a:hover {
 }
 
 .linklist li:not(:last-child):after {
-  content: "· ";
+  position: absolute;
+  content: "·";
 }
