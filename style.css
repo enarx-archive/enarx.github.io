@@ -12,15 +12,30 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: black;
+  font-size: 2vw;
   color: white;
+}
+
+@media only screen and (max-height: 800px) and (orientation: landscape) {
+  body {
+    background-size: auto 50vh;
+    font-size: 3.5vh;
+  }
+}
+
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+  body {
+    background-size: 50vw auto;
+    font-size: 3.5vw;
+  }
 }
 
 a {
   text-transform: lowercase;
   font-variant: small-caps;
   text-decoration: none;
-  padding: 0.5em;
-  margin: 0.5em;
+  padding: 0.125em;
+  margin: 0.125em;
 }
 
 a:hover {
