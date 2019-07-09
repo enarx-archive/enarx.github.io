@@ -19,14 +19,14 @@ body {
 @media only screen and (max-height: 800px) and (orientation: landscape) {
   body {
     background-size: auto 50vh;
-    font-size: 3.5vh;
+    font-size: 4vh;
   }
 }
 
 @media only screen and (max-width: 800px) and (orientation: portrait) {
   body {
     background-size: 50vw auto;
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
 }
 
