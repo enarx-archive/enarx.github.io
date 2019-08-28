@@ -1,8 +1,14 @@
 # Enarx
 
-Introduction: Enarx is an application deployment system enabling applications to run within Trusted Execution Environments (TEEs) without rewriting for particular platforms or SDKs. It handles attestation and delivery into a run-time “Keep” based on WebAssembly, offering developers a wide range of language choices for implementation. Enarx is CPU-architecture independent, enabling the same application code to be deployed across multiple targets, abstracting issues such as cross-compilation and differing attestation mechanisms between hardware vendors. Work is currently underway on AMD SEV and Intel SGX.
+## Introduction
+Enarx is an application deployment system enabling applications to run within Trusted Execution Environments (TEEs) without rewriting for particular platforms or SDKs. It handles attestation and delivery into a run-time “Keep” based on WebAssembly, offering developers a wide range of language choices for implementation. Enarx is CPU-architecture independent, enabling the same application code to be deployed across multiple targets, abstracting issues such as cross-compilation and differing attestation mechanisms between hardware vendors. Work is currently underway on AMD SEV and Intel SGX.
 
-Project aim: Create a way to create and run "private, fungible, serverless" applications using Trusted Execution Environments (TEEs). In other words, to provide a platform abstraction for TEEs.
+We've known for a long time that we need encryption for data at rest and in transit: Enarx helps you do encryption for data in use.
+
+[Read more](https://github.com/enarx/enarx.github.io/wiki/Enarx-Introduction)
+
+## Project aim
+Create a way to create and run "private, fungible, serverless" applications using Trusted Execution Environments (TEEs). In other words, to provide a platform abstraction for TEEs.
 
 They should:
 
