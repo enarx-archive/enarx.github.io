@@ -27,6 +27,8 @@ For more information, please try our [wiki](https://github.com/enarx/enarx.githu
 
 Building the various components of Enarx is currently complex: we are working on this.  Please contact us for help.
 
+(2019-09-01) It is also worth mentioning that it isn't yet possible to run Enarx.  We're working hard on it and we'd love people to work with us. We hope to be adding more information very soon, to allow you to get started.
+
 ## Authors
 
 * **Mike Bursell** - *Initial work* - [MikeCamel](https://github.com/MikeCamel)
