@@ -1,0 +1,96 @@
+# Install the 'graphviz' package
+#
+# To generate the map:
+#   $ neato -T svg repos.gv -o repos.svg
+
+graph {
+    layout=neato
+    overlap=false
+    bgcolor="#ffffff00"
+
+    node [style="filled",
+          color="white",
+          fontcolor="black"]
+
+    {node [label="https://github.com/enarx"] Enarx}
+
+    # Rust color = "coral"
+    # Python color = "deepskyblue4"
+    {node [style="filled", color="coral", fontcolor="white"] "enarx-keepldr"}
+    {node [style="filled", color="coral", fontcolor="white"] "sev"}
+    {node [style="filled", color="coral", fontcolor="white"] "sgx"}
+    {node [style="filled", color="coral", fontcolor="white"] "xsave"}
+    {node [style="filled", color="deepskyblue4", fontcolor="white"] "bot"}
+    {node [style="filled", color="deepskyblue4", fontcolor="white"] "bot-test"}
+    {node [style="filled", color="coral", fontcolor="white"] "enarx-keepmgr"}
+    {node [style="filled", color="coral", fontcolor="white"] "sevctl"}
+    {node [style="filled", color="coral", fontcolor="white"] "client"}
+    {node [style="filled", color="coral", fontcolor="white"] "enarx-wasmldr"}
+    {node [style="filled", color="coral", fontcolor="white"] "primordial"}
+    {node [style="filled", color="coral", fontcolor="white"] "lset"}
+    {node [style="filled", color="coral", fontcolor="white"] "signrel"}
+    {node [style="filled", color="coral", fontcolor="white"] "mmarinus"}
+    {node [style="filled", color="coral", fontcolor="white"] "vdso"}
+    {node [style="filled", color="coral", fontcolor="white"] "iocuddle"}
+    {node [style="filled", color="coral", fontcolor="white"] "frenetic"}
+    {node [style="filled", color="coral", fontcolor="white"] "uabs"}
+    {node [style="filled", color="coral", fontcolor="white"] "lebicon"}
+    {node [style="filled", color="coral", fontcolor="white"] "nbytes"}
+    {node [style="filled", color="coral", fontcolor="white"] "crt0stack"}
+    {node [style="filled", color="coral", fontcolor="white"] "flagset"}
+    {node [style="filled", color="coral", fontcolor="white"] "endicon"}
+    {node [style="filled", color="coral", fontcolor="white"] "wasmtime"}
+
+    edge [color="white"]
+
+    Enarx -- CI
+    Enarx -- Keep
+    Enarx -- Deployment
+    Enarx -- Runtime
+    Enarx -- Advocacy
+    Enarx -- Libraries
+    Enarx -- Documentation
+
+    CI -- bot
+    CI -- "bot-test"
+
+    Keep -- "enarx-keepldr"
+
+    "enarx-keepldr" -- sev
+    "enarx-keepldr" -- sgx
+
+    sgx -- xsave
+
+    Deployment -- client
+    Deployment -- Utilities
+    Deployment -- "enarx-keepmgr"
+
+    Utilities -- sevctl
+
+    Runtime -- "enarx-wasmldr"
+    Runtime -- Upstream
+    Upstream -- "WASI"
+    Upstream -- wasmtime
+
+    Libraries -- crt0stack
+    Libraries -- endicon
+    Libraries -- flagset
+    Libraries -- frenetic
+    Libraries -- iocuddle
+    Libraries -- lebicon
+    Libraries -- lset
+    Libraries -- mmarinus
+    Libraries -- nbytes
+    Libraries -- primordial
+    Libraries -- signrel
+    Libraries -- uabs
+    Libraries -- vdso
+
+    Advocacy -- "Asset Creation"
+    Advocacy -- "Write Tutorials"
+    Advocacy -- "enarx.github.io / enarx.dev"
+    Advocacy -- "Make demos"
+    Advocacy -- "Present, talk about, share Enarx"
+
+    "Asset Creation" -- "Logos & Images"
+}
