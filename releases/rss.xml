@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Enarx Blog</title>
+        <link>https://enarx.dev/releases</link>
+        <description>Enarx Blog</description>
+        <lastBuildDate>Mon, 25 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[First Release]]></title>
+            <link>https://enarx.dev/releases/first-release</link>
+            <guid>first-release</guid>
+            <pubDate>Mon, 25 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enarx's first release]]></description>
+            <content:encoded><![CDATA[<p>Enarx&#x27;s first release</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
