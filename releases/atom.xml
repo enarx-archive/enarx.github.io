@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://enarx.dev/releases</id>
+    <title>Enarx Blog</title>
+    <updated>2021-10-25T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://enarx.dev/releases"/>
+    <subtitle>Enarx Blog</subtitle>
+    <icon>https://enarx.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[First Release]]></title>
+        <id>first-release</id>
+        <link href="https://enarx.dev/releases/first-release"/>
+        <updated>2021-10-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enarx's first release]]></summary>
+        <content type="html"><![CDATA[<p>Enarx&#x27;s first release</p>]]></content>
+        <author>
+            <name>Nathaniel McCallum</name>
+            <uri>https://github.com/npmccallum</uri>
+        </author>
+    </entry>
+</feed>
