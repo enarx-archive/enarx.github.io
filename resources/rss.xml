@@ -4,9 +4,17 @@
         <title>Enarx Blog</title>
         <link>https://enarx.dev/resources</link>
         <description>Enarx Blog</description>
-        <lastBuildDate>Wed, 27 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 02 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Enarx First Release]]></title>
+            <link>https://enarx.dev/resources/2021-11-02-enarx-first-release</link>
+            <guid>2021-11-02-enarx-first-release</guid>
+            <pubDate>Tue, 02 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[We have our first release of Enarx, and a new look for the website. This first release, version 0.1.1, is codenamed Alamo, and provides an easy way in to using Enarx. As always, it’s completely open source: you can look at every single line of our code. It doesn’t provide a full feature set, but what it does do is allow you, for the first time, to write an application, compile it to WebAssembly, and then run it.]]></description>
+            <content:encoded><![CDATA[<p>We have our first release of Enarx, and a new look for the website. This first release, version 0.1.1, is codenamed Alamo, and provides an easy way in to using Enarx. As always, it’s completely open source: you can look at every single line of our code. It doesn’t provide a full feature set, but what it does do is allow you, for the first time, to write an application, compile it to WebAssembly, and then run it.</p><p><strong>Source</strong>: Alice, Eve and Bob – a security blog</p><p><strong>Link</strong>: <a href="https://aliceevebob.com/2021/11/02/enarx-first-release/">https://aliceevebob.com/2021/11/02/enarx-first-release/</a></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Confidential Computing – The Next Frontier in Data Security]]></title>
             <link>https://enarx.dev/resources/2021-10-27-confidential-computing-the-next-frontier-in-data-security</link>

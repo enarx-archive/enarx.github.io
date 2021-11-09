@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://enarx.dev/resources</id>
     <title>Enarx Blog</title>
-    <updated>2021-10-27T00:00:00.000Z</updated>
+    <updated>2021-11-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://enarx.dev/resources"/>
     <subtitle>Enarx Blog</subtitle>
     <icon>https://enarx.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Enarx First Release]]></title>
+        <id>2021-11-02-enarx-first-release</id>
+        <link href="https://enarx.dev/resources/2021-11-02-enarx-first-release"/>
+        <updated>2021-11-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We have our first release of Enarx, and a new look for the website. This first release, version 0.1.1, is codenamed Alamo, and provides an easy way in to using Enarx. As always, it’s completely open source: you can look at every single line of our code. It doesn’t provide a full feature set, but what it does do is allow you, for the first time, to write an application, compile it to WebAssembly, and then run it.]]></summary>
+        <content type="html"><![CDATA[<p>We have our first release of Enarx, and a new look for the website. This first release, version 0.1.1, is codenamed Alamo, and provides an easy way in to using Enarx. As always, it’s completely open source: you can look at every single line of our code. It doesn’t provide a full feature set, but what it does do is allow you, for the first time, to write an application, compile it to WebAssembly, and then run it.</p><p><strong>Source</strong>: Alice, Eve and Bob – a security blog</p><p><strong>Link</strong>: <a href="https://aliceevebob.com/2021/11/02/enarx-first-release/">https://aliceevebob.com/2021/11/02/enarx-first-release/</a></p>]]></content>
+        <author>
+            <name>Mike Bursell</name>
+            <uri>https://github.com/MikeCamel</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Confidential Computing – The Next Frontier in Data Security]]></title>
         <id>2021-10-27-confidential-computing-the-next-frontier-in-data-security</id>
