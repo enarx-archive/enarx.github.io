@@ -2,11 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://enarx.dev/resources</id>
     <title>Enarx Blog</title>
-    <updated>2021-11-09T00:00:00.000Z</updated>
+    <updated>2021-11-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://enarx.dev/resources"/>
     <subtitle>Enarx Blog</subtitle>
     <icon>https://enarx.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[2021-11-17 Outreach Meeting]]></title>
+        <id>2021-11-17 Outreach Meeting</id>
+        <link href="https://enarx.dev/resources/2021/11/17/outreach-meeting"/>
+        <updated>2021-11-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[* Ajay]]></summary>
+        <content type="html"><![CDATA[<ul><li>Ajay</li><li>Mandeep</li><li>Morgan</li><li>Nick</li><li>Paul</li><li>Shraddha</li></ul><h1>Agenda</h1><h2>General discussion</h2><h3>Outreachy</h3><p>The Outreachy applicants had the opportunity to share with others their experience so far with the Enarx project: what they learned and what challenges they faced.</p><p>Results for the Outreachy program will be published next Monday (22nd), but Nick reassured everyone that, independent of the results, he would like to continue working with them.</p><p>A new group of WebAssembly enthusiasts is being formed at <a href="https://www.wasm.builders/">wasm.builders</a> and Nick suggested for each one to publish their WebAssembly tutorials there for visibility. This will help them to build their portfolio and will open new opportunities.</p>]]></content>
+        <author>
+            <name>Enarx</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2021-11-09 Outreach Meeting]]></title>
         <id>2021-11-09 Outreach Meeting</id>
