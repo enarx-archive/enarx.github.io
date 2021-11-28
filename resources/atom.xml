@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://enarx.dev/resources</id>
     <title>Enarx Blog</title>
-    <updated>2021-11-17T00:00:00.000Z</updated>
+    <updated>2021-11-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://enarx.dev/resources"/>
     <subtitle>Enarx Blog</subtitle>
     <icon>https://enarx.dev/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome Outreachy interns]]></title>
+        <id>2021-11-23-welcome-outreachy-interns</id>
+        <link href="https://enarx.dev/resources/2021-11-23-welcome-outreachy-interns"/>
+        <updated>2021-11-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In a previous blog post, we outlined our vision for creating a Confidential Computing Fellowship. Today, we announce the first steps towards this vision, as we welcome three new interns to the Enarx project.]]></summary>
+        <content type="html"><![CDATA[<p>In a previous blog post, we outlined our vision for creating a Confidential Computing Fellowship. Today, we announce the first steps towards this vision, as we welcome three new interns to the Enarx project.</p><p>Last month, we received 10 Outreachy applicants. Of these, 9 were able to complete the first task successfully, which consisted of learning about WebAssembly, developing some small demos, and publishing one or more tutorials on GitHub. WebAssembly is key to the Enarx project, as this is how we deploy applications to the Cloud.</p><p><strong>Source</strong>: Enarx&#x27;s Blog</p><p><strong>Link</strong>: <a href="https://blog.enarx.dev/welcome-outreachy-interns/">https://blog.enarx.dev/welcome-outreachy-interns/</a></p>]]></content>
+        <author>
+            <name>Nick Vidal</name>
+            <uri>https://github.com/nickvidal</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2021-11-17 Outreach Meeting]]></title>
         <id>2021-11-17 Outreach Meeting</id>
@@ -16,6 +28,18 @@
         <content type="html"><![CDATA[<ul><li>Ajay</li><li>Mandeep</li><li>Morgan</li><li>Nick</li><li>Paul</li><li>Shraddha</li></ul><h1>Agenda</h1><h2>General discussion</h2><h3>Outreachy</h3><p>The Outreachy applicants had the opportunity to share with others their experience so far with the Enarx project: what they learned and what challenges they faced.</p><p>Results for the Outreachy program will be published next Monday (22nd), but Nick reassured everyone that, independent of the results, he would like to continue working with them.</p><p>A new group of WebAssembly enthusiasts is being formed at <a href="https://www.wasm.builders/">wasm.builders</a> and Nick suggested for each one to publish their WebAssembly tutorials there for visibility. This will help them to build their portfolio and will open new opportunities.</p>]]></content>
         <author>
             <name>Enarx</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Confidential Computing: logging and debugging]]></title>
+        <id>2021-11-16-logging-debugging</id>
+        <link href="https://enarx.dev/resources/2021-11-16-logging-debugging"/>
+        <updated>2021-11-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Log entries and other error messages can be very useful, but they can also provide information to other parties - sometimes information which you’d prefer they didn’t have.  This is particularly true when you are thinking about Confidential Computing: running applications or workloads in environments where you really want to protect the confidentiality and integrity of your application and its data.]]></summary>
+        <content type="html"><![CDATA[<p>Log entries and other error messages can be very useful, but they can also provide information to other parties - sometimes information which you’d prefer they didn’t have.  This is particularly true when you are thinking about Confidential Computing: running applications or workloads in environments where you really want to protect the confidentiality and integrity of your application and its data.</p><p><strong>Source</strong>: Enarx&#x27;s Blog</p><p><strong>Link</strong>: <a href="https://blog.enarx.dev/confidential-computing-logging-and-debugging/">https://blog.enarx.dev/confidential-computing-logging-and-debugging/</a></p>]]></content>
+        <author>
+            <name>Mike Bursell</name>
+            <uri>https://github.com/MikeCamel</uri>
         </author>
     </entry>
     <entry>
