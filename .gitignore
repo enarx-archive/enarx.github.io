@@ -1,0 +1,17 @@
+.DS_Store
+.vscode
+.idea
+*.iml
+*.code-workspace
+.changelog
+
+node_modules
+.yarn
+
+.eslintcache
+
+yarn-error.log
+build
+coverage
+.docusaurus
+.cache-loader
