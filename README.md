@@ -1,4 +1,4 @@
-# Enarx Docs
+# Enarx website & documentation
 
 This repository contains the assets required to build the [Enarx website and documentation](https://enarx.dev/). We're glad that you want to contribute!
 
@@ -14,8 +14,8 @@ To install the website locally and build it, you need the following installed:
 Before you start, install the dependencies. Clone the repository and navigate to the directory:
 
 ```sh
-git clone https://github.com/enarx/docs.git
-cd docs
+git clone https://github.com/enarx/enarx.github.io.git
+cd enarx.github.io
 ```
 
 The Enarx website uses [Docusaurus](https://docusaurus.io/) to build a customizable and optimized website.
@@ -50,7 +50,7 @@ yarn serve
 
 ----
 
-## Contributing to the docs
+## Contributing to the website
 
 Click the Fork button in the upper-right area of the screen to create a fork of this repository in your GitHub account. Create a branch off the `main` and make any changes you want in your fork. Create a new pull request to help us know about your proposed changes so that we can provide actionable feedback. As a pull request owner, it is your responsibility to modify your pull request to address the feedback that has been provided to you by the reviewer.
 
