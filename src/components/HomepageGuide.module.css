@@ -1,0 +1,12 @@
+.guide {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  background-color: #008080;
+}
+
+.guide svg {
+  height: 100px;
+  width: 100px;
+}
