@@ -7,10 +7,11 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build:
-    name: Build Frontend Project
+    name: Build the website
     runs-on: ubuntu-latest
     if: |
       !contains(github.event.head_commit.message, 'skip-ci')
@@ -30,3 +31,12 @@ jobs:
 
       - name: Build the website
         run: yarn build
+
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          target_branch: gh-pages
+          build_dir: build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
