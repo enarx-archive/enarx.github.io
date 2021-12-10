@@ -33,7 +33,7 @@ jobs:
         run: yarn build
 
       - name: Deploy to GitHub Pages
-        if: success()
+        if: github.event_name != 'pull_request'
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: gh-pages
