@@ -2,7 +2,7 @@
 
 Exactly what layers in the stack trust each other is a key issue for Enarx.  This diagram gives a simple view of the various layers in the VM case (e.g. with [AMD SEV](https://github.com/enarx/enarx/wiki/SEV-architectural)), and what their role is.
 
-![Enarx trust architecture (VM case)](https://raw.githubusercontent.com/enarx/enarx.github.io/main/assets/images/trust-architecture.png)
+![Enarx trust architecture (VM case)](https://raw.githubusercontent.com/enarx/enarx.github.io/main/static/assets/images/trust-architecture.png)
 
 Enarx provides four layers in the run-time stack.  Working from the lowest up, they are:
 1. a VMM (Virtual Memory Manager)
@@ -55,4 +55,4 @@ The application layer is the workload provided by the client to run within the E
 
 ## Diagram of Enarx components
 Here is another view of the detail of Enarx components:  
-![Enarx component details image](https://raw.githubusercontent.com/enarx/enarx.github.io/main/assets/images/enarx-component-detail.png)
+![Enarx component details image](https://raw.githubusercontent.com/enarx/enarx.github.io/main/static/assets/images/enarx-component-detail.png)
