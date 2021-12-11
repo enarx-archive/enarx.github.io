@@ -14,7 +14,7 @@ Enarx is built with these principles in mind:
 
 In short visual form:
 
-![A representation of a computing stack, with "CPU | Firmware" at the bottom and "Application" and "Middleware" at the top. The other six middle layers in between are crossed out.](https://raw.githubusercontent.com/enarx/enarx.github.io/main/assets/images/enarx-trust-stack.png)
+![A representation of a computing stack, with "CPU | Firmware" at the bottom and "Application" and "Middleware" at the top. The other six middle layers in between are crossed out.](https://raw.githubusercontent.com/enarx/enarx.github.io/main/static/assets/images/enarx-trust-stack.png)
 
 ## Threat model detailed
 
