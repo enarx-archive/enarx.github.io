@@ -29,8 +29,6 @@ Don't forget to also pick a user and group ID (uid, gid). Use the next available
 
 Regarding SSH keys, please try to stick to something modern.
 
-You can use [one of the previous](https://github.com/enarx/packet.com/pull/17/files) PRs as a model.
-
 ## Using the lab machines
 
 We currently have two lab machines:
