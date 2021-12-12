@@ -41,12 +41,6 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://github.com/enarx/docs/blob/main',
         },
-        resources: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/enarx/resources/blob/main',
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

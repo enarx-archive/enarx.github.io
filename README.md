@@ -24,7 +24,13 @@ The Enarx website uses [Docusaurus](https://docusaurus.io/) to build a customiza
 
 ## Running the website
 
-To start a local development server, run the following command: 
+To install the project dependencies, run the following command: 
+
+```sh
+yarn install
+```
+
+To start a local development server, run: 
 
 ```sh
 yarn start
