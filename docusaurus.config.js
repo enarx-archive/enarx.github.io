@@ -31,7 +31,7 @@ const config = {
         blog: {
           blogTitle: 'Resources',
           blogSidebarTitle: 'Resources',
-          blogSidebarCount: 1,
+          blogSidebarCount: 10,
           path: 'resources',
           routeBasePath: 'resources',
           showReadingTime: false,
