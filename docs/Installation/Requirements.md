@@ -1,5 +1,13 @@
 # Requirements
 
+## Recommended hardware
+
+Enarx requires specific hardware to run, namely a CPU with a supported Trusted Execution Environment. Currently, Enarx has support for Intel SGX and AMD SEV-SNP.
+
+For Intel, our recommendation would be the 3rd Gen Intel Xeon Scalable Ice Lake. This [article](https://www.servethehome.com/3rd-gen-intel-xeon-scalable-ice-lake-sku-list-and-value-analysis/) provides a comprehensive analysis of the different models. The 5318Y or 5318S provide good value.
+
+For AMD our recommendation would be the EPYC 7003 Milan. This [article](https://www.servethehome.com/amd-epyc-7003-milan-sku-list-and-value-analysis/) offers an analysis of the different models. The 7313 seems like a good value.
+
 ## Setting up an SGX machine
 - Run a recent kernel with SGX support compiled in
 - Set the SGX device node permissions
