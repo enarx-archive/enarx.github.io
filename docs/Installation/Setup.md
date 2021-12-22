@@ -64,7 +64,7 @@ Failure to do so might result in weird failures at runtime.
 
     $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
     $ source $HOME/.cargo/env
-    $ rustup toolchain install 1.57 -t x86_64-unknown-linux-musl,x86_64-unknown-linux-gnu
+    $ rustup install 1.57
 
 :::note
 

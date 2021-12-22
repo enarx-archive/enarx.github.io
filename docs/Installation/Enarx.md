@@ -4,6 +4,7 @@ You can install Enarx from crates.io, GitHub, or Nix.
 
 ## Install directly from crates.io
 
+    $ rustup toolchain install 1.57 -t x86_64-unknown-linux-musl,x86_64-unknown-linux-gnu
     $ RUSTC_BOOTSTRAP=1 cargo +1.57 install --bin enarx -- enarx
     
 ## Install from GitHub
