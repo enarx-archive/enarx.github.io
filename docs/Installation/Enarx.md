@@ -4,7 +4,7 @@ You can install Enarx from crates.io, GitHub, or Nix.
 
 ## Install directly from crates.io
 
-    $ cargo +nightly install --bin enarx -- enarx
+    $ RUSTC_BOOTSTRAP=1 cargo +1.57 install --bin enarx -- enarx
     
 ## Install from GitHub
 
@@ -31,6 +31,8 @@ or:
 $ nix develop
 ```
 
-### Known Issue for Enarx 0.1
+:::note
 
 `nix-shell` opens file descriptors `3` and `4` and the enarx `cargo test` fails therefore. `nix develop` does not seem to have this problem.
+
+:::
