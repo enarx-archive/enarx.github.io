@@ -1,11 +1,7 @@
 # Installing Enarx
 
-You can install Enarx from crates.io, GitHub, or Nix.
+You can install Enarx from GitHub, crates.io, or Nix.
 
-## Install directly from crates.io
-
-    $ rustup toolchain install 1.57 -t x86_64-unknown-linux-musl,x86_64-unknown-linux-gnu
-    $ RUSTC_BOOTSTRAP=1 cargo +1.57 install --bin enarx -- enarx
     
 ## Install from GitHub
 
@@ -14,6 +10,19 @@ You can install Enarx from crates.io, GitHub, or Nix.
     $ cargo build
 
     $ cargo install --bin enarx --path ./
+
+
+## Install from crates.io
+
+:::note
+
+Rust version 1.57 is required when installing Enarx 0.1.3 from crates.io.
+
+:::
+
+    $ rustup toolchain install 1.57 -t x86_64-unknown-linux-musl,x86_64-unknown-linux-gnu
+    $ RUSTC_BOOTSTRAP=1 cargo +1.57 install --bin enarx -- enarx
+
 
 ## Install from Nix
 

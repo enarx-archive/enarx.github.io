@@ -2,6 +2,8 @@
 
 ## Install Dependencies
 
+Please find instructions for each Linux distribution below:
+
 ### Fedora
 
     $ sudo dnf install git curl gcc pkg-config openssl-devel musl-gcc
@@ -60,17 +62,11 @@ Failure to do so might result in weird failures at runtime.
 
 :::
 
-## Install Rust and the toolchains
+## Install Rust
 
     $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
     $ source $HOME/.cargo/env
-    $ rustup install 1.57
 
-:::note
-
-Rust version 1.57 is required for Enarx 0.1.3.
-
-:::
 
 :::tip 
 
