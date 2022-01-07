@@ -172,7 +172,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Enarx - ${new Date().getFullYear()} - Creative Commons`,
+        copyright: `Enarx - ${new Date().getFullYear()} - <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons</a> - <a href="https://enarx.dev/sponsors">Sponsors</a>`,
       },
       prism: {
         theme: lightCodeTheme,
