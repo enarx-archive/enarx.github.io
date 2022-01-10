@@ -35,6 +35,11 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Fellowship Guide',
+      items: ['Fellowship/Introduction','Fellowship/Audience','Fellowship/Benefits','Fellowship/Partners','Fellowship/Initiatives','Fellowship/Schedule','Fellowship/Conclusion'],
+    },
+    {
+      type: 'category',
       label: 'Technical Overview',
       items: ['Technical/Introduction','Technical/Problem','Technical/Design','Technical/Threat','Technical/Trust-Architecture','Technical/TEE','Technical/Components','Technical/Runtime','Technical/WebAssembly','Technical/Process-Flow','Technical/Syscall-Proxy','Technical/Hardware','Technical/Builds','Technical/Vulnerabilities-Attacks','Technical/AMD-SEV','Technical/AMD-SEV-Attestation','Technical/AMD-SNP','Technical/Intel-SGX','Technical/Intel-SGX-Measurement','Technical/Cases','Technical/FAQ',],
     },
