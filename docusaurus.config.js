@@ -128,6 +128,10 @@ const config = {
                 to: '/docs/Contributing/Introduction',
               },
               {
+                label: 'Fellowship Guide',
+                to: '/docs/Fellowship/Introduction',
+              },
+              {
                 label: 'Technical Overview',
                 to: '/docs/Technical/Introduction',
               },
