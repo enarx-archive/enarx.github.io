@@ -5,8 +5,6 @@ authors: [mike]
 tags: [Event]
 ---
 
-<a href="https://events.securityweekly.com/unlocked2021"><img src="./unlocked2021.jpg" /></a>
-
 **Title**: Dr CloudLove, or how I learned to trust my CSP (not)  
 **Author**: Mike Bursell  
 **Date**: Tuesday, December 7, 2021, 11:00 AM - 11:45 AM  
