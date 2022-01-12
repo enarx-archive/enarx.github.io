@@ -4,7 +4,13 @@ authors: [enarx]
 tags: [Meeting]
 ---
 # Present
+* Austin
+* Jarkko
+* Harald
+* Mike
+* Nathaniel
 * Nick
+* Paul
 
 # Agenda
 
@@ -18,8 +24,8 @@ tags: [Meeting]
 - Receive 8 fellowship guests;
 
 ## Community Metrics
-- Publish metrics fortnightly (https://blog.enarx.dev/lfx-tools/);
-- Open OKRs (https://github.com/orgs/enarx/projects/6);
+- Publish metrics fortnightly (https://blog.enarx.dev/lfx-tools );
+- Open OKRs (https://github.com/orgs/enarx/projects/6 );
 
 ## CCC
 - TAC Tech Talk about Confidential Computing Fellowship (LFX leadership invited);
@@ -33,7 +39,7 @@ tags: [Meeting]
 - Co-participation at events (Wasm Days, WebAssembly Live, WebAssembly Summit).
 
 ## Fellowship
-- Confidential Computing Fellowship guide published (https://enarx.dev/docs/Fellowship/Introduction);
+- Confidential Computing Fellowship guide published (https://enarx.dev/docs/Fellowship/Introduction );
 - LFX Mentorship applicants (approaching 200);
 - Start receiving applicants next week;
 - Invite guests (for weekly presentations);
