@@ -30,11 +30,11 @@ You can find us here: [chat.enarx.dev](https://chat.enarx.dev)
 
 ## Meetings
 
-We have **daily meetings** at 10:00-10:30 EST, using [Jitsi](https://meet.jit.si/EnarxDaily). No account is needed to join.
+We have **daily meetings** at 10:00-10:30 EST, using [Google Meet](https://meet.google.com/tod-dwyt-pzv). No account is needed to join.
 
 The full Enarx calendar is available as a [Google Calendar](https://calendar.google.com/calendar/embed?src=leatqk15m1f34loatvatftkm48%40group.calendar.google.com&ctz=America%2FNew_York). No account is needed to view.
 
-The meetings happen on [Jitsi Meet](https://meet.jit.si/EnarxDaily). (You do not need any account to join.)
+The meetings happen on [Google Meet](https://meet.google.com/tod-dwyt-pzv). (You do not need any account to join.)
 
 Please check the [Meetings](https://enarx.dev/meetings) page for more information.
 
