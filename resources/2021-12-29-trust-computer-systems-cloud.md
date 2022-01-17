@@ -1,5 +1,5 @@
 ---
-slug: 2021-12-01-trust-computer-systems-cloud
+slug: 2021-12-29-trust-computer-systems-cloud
 title: "Trust in Computer Systems and the Cloud"
 authors: [mike]
 tags: [Book]
