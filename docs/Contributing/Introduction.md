@@ -18,7 +18,7 @@ We are happy to answer as best we can any question you have about Enarx.
 There are three ways you can ask questions:
 - using the chat (see the Communicating section below)
 - during one of the weekly meetings (see the Meetings section below)
-- using the issue tracker (see the [How to contribute: bug reporting](Bugs) page)
+- using the issue tracker (see the [How to contribute: issues reporting](Issues) page)
 
 Please use whatever method you are most comfortable with.
 
@@ -55,7 +55,7 @@ project will be and the better Enarx will be for it.
 With this in mind, here are the current main ways to contribute, but by no means the only ones:
 
 * [Contribute by writing code](Code)
-* [Contribute by reporting bugs](Bugs)
+* [Contribute by reporting issues](Issues)
 * [Contribute by suggesting an RFC](RFCs)
 * [Contribute by helping with documentation](Docs)
 * [Contribute by helping with outreach efforts](Outreach)

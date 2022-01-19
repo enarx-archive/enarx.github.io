@@ -16,7 +16,7 @@ first issue](https://github.com/enarx/enarx/issues?q=is%3Aissue+is%3Aopen+label%
  
 #### Note on issue and bug tracking
 To get a better understanding of how we track issues and bugs, we recommend you
-also read the [How to contribute: bug reporting](Bugs) page.
+also read the [How to contribute: bug reporting](Issues) page.
 
 
 ***

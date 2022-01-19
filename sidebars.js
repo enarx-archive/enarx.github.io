@@ -31,7 +31,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Contributing Guide',
-      items: ['Contributing/Introduction','Contributing/Onboarding','Contributing/Code','Contributing/Coding-Style','Contributing/PRs','Contributing/Bugs','Contributing/RFCs','Contributing/Docs','Contributing/Outreach','Contributing/Lab'],
+      items: ['Contributing/Introduction','Contributing/Onboarding','Contributing/Code','Contributing/Coding-Style','Contributing/PRs','Contributing/Issues','Contributing/RFCs','Contributing/Docs','Contributing/Outreach','Contributing/Lab'],
     },
     {
       type: 'category',

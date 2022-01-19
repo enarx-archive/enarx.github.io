@@ -51,6 +51,12 @@ If you need to change the enarx infrastructure, please file a Merge Request
 against the appropriate container. Once your merge request is merged,
 we will reboot the lab systems to pick up the new settings.
 
+## Report issues
+
+If you found and issue with our Lab machines, please file it on GitLab. If you have a proposed solution, please file a merge request on GitLab.
+
+[File issue for Lab machines](https://gitlab.com/enarx/lab/-/issues) 
+
 ### Installing Rust
 
 Given Enarx is written in Rust, you will want to install Rust and Cargo, its package manager.
