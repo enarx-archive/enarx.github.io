@@ -28,7 +28,7 @@ Please provide a concise description of the requested feature and justification.
 For Lab machines, issues should exceptionally be filed on GitLab instead of GitHub.
 :::
 
-If you found and issue with our Lab machines, please file it on GitLab. If you have a proposed solution, please file a merge request on GitLab.
+If you found an issue with our Lab machines, please file it on GitLab. If you have a proposed solution, please file a merge request on GitLab.
 
 [File issue for Lab machines](https://gitlab.com/enarx/lab/-/issues) 
   
