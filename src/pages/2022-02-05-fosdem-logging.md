@@ -1,7 +1,7 @@
 ---
 slug: 2022-02-05-fosdem-logging
 title: "Logging, debugging and error management in Confidential Computing"
-authors: [nick]
+authors: [mike]
 tags: [Event]
 ---
 
