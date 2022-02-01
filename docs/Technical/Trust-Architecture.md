@@ -8,7 +8,7 @@ Enarx provides four layers in the run-time stack.  Working from the lowest up, t
 1. a VMM (Virtual Memory Manager)
 2. a microkernel (μkernel)
 3. a WASM runtime (WebAssembly)
-4. a WASI implementation (Web Assembly System Interface).
+4. a WASI implementation (WebAssembly System Interface).
 
 All of these are cryptographically measured and checked at runtime before each deployment.  They are not the only layers in the stack, however.  Others include the CPU (in which layer we also include CPU firmware), the host kernel and the application itself.  See below for a little more detail about the trust architecture.
 
