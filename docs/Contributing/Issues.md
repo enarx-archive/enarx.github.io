@@ -55,6 +55,6 @@ To keep our work organised, we make heavy use of labels. These allow us to quick
 - [technology/sgx](https://github.com/enarx/enarx/labels/technology%2Fsgx): All SGX related issues
 - [technology/wasm](https://github.com/enarx/enarx/labels/technology%20wasm): All WASM related issues
 - [triage](https://github.com/enarx/enarx/labels/triage): news issues are tagged with this label automatically. 
-- [wontfix](https://github.com/enarx/enarx/labels/wontfix): Issuses that will not be worked on
+- [wontfix](https://github.com/enarx/enarx/labels/wontfix): Issues that will not be worked on
 
 You can click on a label name to see the issues that have been tagged with it.
