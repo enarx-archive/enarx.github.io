@@ -28,7 +28,7 @@ A sample schedule for a 12-week program could be:
 
 ## Graduation
 
-Fellows who successfuly complete the fellowship program will graduate and receive a Confidential Computing Fellowship certification. Further opportunities will be explored and presented to the fellow based on his/her interests.
+Fellows who successfully complete the fellowship program will graduate and receive a Confidential Computing Fellowship certification. Further opportunities will be explored and presented to the fellow based on his/her interests.
 
 ## Mentorship
 

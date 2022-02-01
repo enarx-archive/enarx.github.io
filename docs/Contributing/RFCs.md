@@ -3,13 +3,13 @@ The Enarx project welcomes contributions!
 
 Would you like to help with the development of Enarx?
 
-This page will guide you towards submiting your first RFC – Request for Comment
+This page will guide you towards submitting your first RFC – Request for Comment
 –, the process used by the project to formally describe improvements or new
 ideas.
 
 There are many different skills needed to build Enarx, from low-level assembly
 code for platform-specific enablement (think SGX, SEV, etc.) to kernel-related 
-work, from WebAssembly to building and maintaining our infrastracture and automated
+work, from WebAssembly to building and maintaining our infrastructure and automated
 integration and testing (CI/CD), and more, so please don't hesitate to try your
 hand at any of these or to come and talk to us.
 

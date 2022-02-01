@@ -8,7 +8,7 @@ This document explains the rules regarding these machines as well as how to acce
 
 ## Obtaining access
 
-Access to the Enax Lab machines is relatively open, and the machines are intended to be used by the community. We do expect you to have started contributing to the project and to know you a minimum first, so please join the [chat](https://chat.enarx.dev) if you haven't already done so.
+Access to the Enarx Lab machines is relatively open, and the machines are intended to be used by the community. We do expect you to have started contributing to the project and to know you a minimum first, so please join the [chat](https://chat.enarx.dev) if you haven't already done so.
 
 If you would like access to the Enarx infrastructure, please add yourself to both `users.conf` and `sshkeys.conf` at GitLab by doing a merge request:
 

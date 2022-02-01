@@ -16,4 +16,4 @@ HSM's (Hardware Security Modules) generally provide higher levels of protection 
 ## Further reading
 - [Hardware with TEE support](Hardware)
 - [Vulnerabilities in and attacks on TEEs](Vulnerabilities-Attacks)
-- [Current Trusted Execution Environement Landscape](https://next.redhat.com/2019/12/02/current-trusted-execution-environment-landscape/), long-form article published in February 2020 by members of the Enarx team.
+- [Current Trusted Execution Environment Landscape](https://next.redhat.com/2019/12/02/current-trusted-execution-environment-landscape/), long-form article published in February 2020 by members of the Enarx team.
