@@ -2,11 +2,11 @@
 
 ## Build and run a WebAssembly module
 
-Install the Webassembly rust toolchain:
+Install the WebAssembly Rust toolchain:
 
     $ rustup target install wasm32-wasi
 
-Create a simple rust program:
+Create a simple Rust program:
 
     $ cargo init --bin hello-world
     $ cd hello-world
@@ -14,7 +14,7 @@ Create a simple rust program:
     $ cargo build --release --target=wasm32-wasi
 
 Assuming you did install the `enarx` binary and have it in your `$PATH`, you can
-now run the Webassembly program in an Enarx keep.
+now run the WebAssembly program in an Enarx keep.
 
     $ enarx run target/wasm32-wasi/release/hello-world.wasm
     […]
