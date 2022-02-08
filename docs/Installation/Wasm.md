@@ -6,8 +6,9 @@ Install the WebAssembly Rust toolchain:
 
     $ rustup target install wasm32-wasi
 
-Create a simple Rust program:
+Create a simple Rust program.  First make sure you're not in the repository you already created:
 
+    $ cd ~/
     $ cargo init --bin hello-world
     $ cd hello-world
     $ echo 'fn main() { println!("Hello, Enarx!"); }' > src/main.rs
