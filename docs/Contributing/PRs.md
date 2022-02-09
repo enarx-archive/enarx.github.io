@@ -6,7 +6,7 @@ This guide assumes that you have [forked our repo](https://help.github.com/en/gi
 
 ### Check that your code is really ready
 
-* You should run a quick `cargo fmt` in all the crates where you've made changes and run `cargo test` and `cargo make ci-flow` to double check that your changes didn't break functionality.
+* You should run a quick `cargo fmt` in all the crates where you've made changes and run `cargo test` to double check that your changes didn't break functionality.
 * Check the output when you run a `git diff upstream/master`. Do you see any changes you don't actually want to submit? Did you alter any code for testing purposes that shouldn't actually be part of the PR? If so, you should undo these changes.
 
 ### Squash your commits
