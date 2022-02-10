@@ -67,3 +67,27 @@ $ sudo chown root:root /lib/firmware/amd/amd_sev_fam19h_model0xh.sbin
 ```console
 # echo 'options kvm_amd sev=1' > /etc/modprobe.d/kvm-amd.conf
 ```
+
+## Requirements for KVM as a backend
+
+KVM (Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). It consists of a loadable kernel module, kvm.ko, that provides the core virtualization infrastructure and a processor specific module, kvm-intel.ko or kvm-amd.ko.
+
+It's not always possible to have access to hardware with the support for Intel SGX or AMD SEV-SNP, hence, enarx supports KVM to facilitate the testing on more common hardware which have virtualization support. For the KVM support, the Intel VT and AMD-V features must be provided by the hardware.
+
+KVM module is loaded by the Linux kernel automatically if the hardware supports the feature, hence, it's easy for anyone to set it up.
+
+To check if the kvm module is loaded use the following command:
+```console
+lsmod | grep kvm
+```
+
+If the module is loaded the following output should be expected
+```console
+kvm_intel    213   0
+kvm 	      10   1 kvm_intel
+```
+or
+```console
+kvm_amd    23213   0
+kvm 	      10   1 kvm_amd
+```
