@@ -66,12 +66,3 @@ Failure to do so might result in weird failures at runtime.
 
     $ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
     $ source $HOME/.cargo/env
-
-
-:::tip 
-
-For Enarx development, Nightly is required:
-
-    $ rustup toolchain install nightly --allow-downgrade -t x86_64-unknown-linux-musl,x86_64-unknown-linux-gnu
-
-:::
