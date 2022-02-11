@@ -36,3 +36,14 @@ setting the `ENARX_BACKEND` environment variable:
 
     $ enarx run --backend=sgx target/wasm32-wasi/release/hello-world.wasm
     $ ENARX_BACKEND=sgx enarx run target/wasm32-wasi/release/hello-world.wasm
+
+#### Note about KVM backend
+
+`enarx` will look for the kvm driver loaded by the kernel and will be ready to use if it's found. Linux kernel
+automatically loads the kvm module if the virtualization feature is enabled by the hardware. The status of whether or not
+enarx was able to find the driver can be checked with the command `enarx info`. If the output shows the driver for kvm is available, you are ready to use enarx using kvm backend.
+
+When you execute the `enarx run` command, enarx tries to automatically select the appropriate driver, and kvm is automatically selected if it's the only backend available. But if you want to specifically use the kvm backend you can pass the `kvm` as a parameter to `--backend` option, or set the `ENARX_BACKEND` environment variable as `kvm`:
+
+    $ enarx run --backend=kvm target/wasm32-wasi/release/hello-world.wasm
+    $ ENARX_BACKEND=kvm enarx run target/wasm32-wasi/release/hello-world.wasm
