@@ -36,7 +36,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Fellowship Guide',
-      items: ['Fellowship/Introduction','Fellowship/Audience','Fellowship/Benefits','Fellowship/Partners','Fellowship/Initiatives','Fellowship/Schedule','Fellowship/Conclusion'],
+      items: ['Fellowship/Introduction','Fellowship/Audience','Fellowship/Benefits','Fellowship/Partners','Fellowship/Initiatives','Fellowship/Ideas','Fellowship/Schedule','Fellowship/Conclusion'],
     },
     {
       type: 'category',
