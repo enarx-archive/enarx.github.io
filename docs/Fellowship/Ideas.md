@@ -87,11 +87,11 @@ Medium
 
 ## Enarx HTTP Demo
 
-The project aims to implement a Single Page Application to consume Web services served by a microservice running on a TEE (Trusted Execution Environment). The frontend can be implemented using any modern JavaScript framework, including React, Vue, or Svelte.
+The project aims to implement a Single Page Application to consume Web services served by a microservice running on a TEE (Trusted Execution Environment). The frontend can be implemented using any modern JavaScript framework, such as React, Vue, or Svelte.
 
 ### Expected outcomes
 
-The expected outcome would be a frontend that interacts with a microservice running on a TEE seeking to demonstrate Confidential Computing. The demo would have application for real-world cases like Banking/Finance or Healthccare which deal with sensitive data and are strongly regulated.
+The expected outcome would be a frontend that interacts with a microservice running on a TEE seeking to demonstrate Confidential Computing. The demo would have application for real-world cases like Banking/Finance or Healthcare which deal with sensitive data and are strongly regulated.
 
 ### Skills required/preferred
 - JavaScript framework (Required)
