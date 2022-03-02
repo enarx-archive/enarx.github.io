@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "website",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -11,39 +11,16 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "lint": "eslint ./src/",
-    "lint:fix": "eslint ./src/ --fix"
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.0-beta.15",
-    "@docusaurus/preset-classic": "2.0.0-beta.15",
-    "@mdx-js/react": "^1.6.21",
-    "@svgr/webpack": "^5.5.0",
+    "@docusaurus/core": "2.0.0-beta.16",
+    "@docusaurus/preset-classic": "2.0.0-beta.16",
+    "@mdx-js/react": "^1.6.22",
     "clsx": "^1.1.1",
-    "file-loader": "^6.2.0",
     "prism-react-renderer": "^1.2.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "url-loader": "^4.1.1",
-    "@easyops-cn/docusaurus-search-local": "^0.19.1"
-  },
-  "devDependencies": {
-    "eslint": "^7.27.0",
-    "prettier": "^2.3.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-react": "^7.22.0"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "react-dom": "^17.0.1"
   },
   "browserslist": {
     "production": [
