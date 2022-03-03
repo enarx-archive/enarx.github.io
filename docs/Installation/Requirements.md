@@ -28,9 +28,9 @@ EOF
 -->
 
 ### Hardware requirements for SGX
-- Is there IPMI support on the NUC7CJYH?
+- Is there IPMI support?
   - There is a similar technology called Intel AMT ([ref1](http://blog.dustinkirkland.com/2013/12/why-i-returned-all-of-my-i3-intel-nucs.html), [ref2](https://www.intel.com/content/www/us/en/support/articles/000026592/technologies.html)) that is present on NUCs with `i5` Ivy Bridge processors. 
-  - Running an [AMT check](https://github.com/mjg59/mei-amt-check) on the NUC7CJYH produces the result `Error: Management Engine refused connection. This probably means you don't have AMT`
+  - Running an [AMT check](https://github.com/mjg59/mei-amt-check) produces the result `Error: Management Engine refused connection. This probably means you don't have AMT`
 - Are there other NUC models that support SGX2?
 - Are SGX features accessible from a VM?
   - There is some [experimental support](https://01.org/intel-software-guard-extensions/sgx-virtualization) for this
