@@ -27,7 +27,12 @@ const sidebars = {
       type: 'category',
       label: 'Installation Guide',
       items: ['Installation/Introduction','Installation/Requirements','Installation/Setup','Installation/Enarx','Installation/Wasm','Installation/Conclusion',],
-    },    
+    },
+    {
+      type: 'category',
+      label: 'WebAssembly Guide',
+      items: ['WebAssembly/Introduction',],
+    },  
     {
       type: 'category',
       label: 'Contributing Guide',
