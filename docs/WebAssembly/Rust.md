@@ -1,6 +1,6 @@
 # WebAssembly with Rust
 
-![Rust WASI](/static/img/tutorial/rustWasi.jpg?raw=true)
+![Rust WASI](/img/tutorial/rustWasi.jpg?raw=true)
 
 ## Environment setup
 
@@ -69,14 +69,14 @@ fn fib (n: u32) -> u32 {
 cargo build
 cargo run
 ```
-![Rust Screenshot1](/static/img/tutorial/rustRunSreenshot.png?raw=true)
+![Rust Screenshot1](/img/tutorial/rustRunSreenshot.png?raw=true)
 
 2. Compile to wasm
 
 ```bash
 cargo build --target=wasm32-wasi
 ```
-![Rust Screenshot2](/static/img/tutorial/rustCompileScreenshot.png?raw=true)
+![Rust Screenshot2](/img/tutorial/rustCompileScreenshot.png?raw=true)
 
 
 3. The wasm file created in release folder of wasi32
@@ -91,6 +91,6 @@ file target/wasm32-wasi/release/demo.wasm
 
 wasmtime target/wasm32-wasi/release/demo.wasm
 ```
-![Rust Screenshot3](/static/img/tutorial/rustWasm.png?raw=true)
+![Rust Screenshot3](/img/tutorial/rustWasm.png?raw=true)
 
 	
