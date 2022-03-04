@@ -1,6 +1,6 @@
 # WebAssembly with Golang
 
-![Golang Webassembly](/static/img/tutorial/golang-wasi.jpg?raw=true)
+![Golang Webassembly](/static/img/tutorial/golangWasi.jpg?raw=true)
 
 ## Environment setup
 
