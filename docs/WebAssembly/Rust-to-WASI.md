@@ -1,6 +1,6 @@
 # WebAssembly with Rust
 
-![Alt text](/static/img/tutorial/rust-wasi.jpg?raw=true)
+![Rust WASI](/static/img/tutorial/rust-wasi.jpg?raw=true)
 
 ## Environment setup
 
@@ -10,13 +10,9 @@ To get started, you must install the following:
 
 Go to [rust-lang.org](https://www.rust-lang.org/tools/install) and follow the instructions using rustup.
 
-### WebAssembly System Interface (WASI)
+### Wasmtime
 
-install Wastime
-
-```bash
-curl https://wasmtime.dev/install.sh -sSf | bash
-```
+You will find wasmtime at [wasmtime.dev](https://wasmtime.dev/)
 
 ### Install the WebAssembly Rust toolchain:
 
@@ -29,7 +25,7 @@ curl https://wasmtime.dev/install.sh -sSf | bash
 
 ## Rust Code
 
-First create a new binary crate using below command:
+First create a new binary crate using the command below:
 
 ```bash
 cargo new demo
@@ -83,17 +79,17 @@ cargo build --target=wasm32-wasi
 ![Rust Screenshot2](/static/img/tutorial/rustCompileScreenshot.png?raw=true)
 
 
-3. The wasm file created in debug folder of wasi32
+3. The wasm file created in release folder of wasi32
 
 ```bash
-file target/wasm32-wasi/debug/main.wasm
+file target/wasm32-wasi/release/demo.wasm
 ```
 
 4. Wasm runtime
 
 ```bash
 
-wasmtime target/wasm32-wasi/debug/main.wasm
+wasmtime target/wasm32-wasi/release/demo.wasm
 ```
 ![Rust Screenshot3](/static/img/tutorial/rustWasm.png?raw=true)
 
