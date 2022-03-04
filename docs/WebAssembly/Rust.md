@@ -1,6 +1,6 @@
 # WebAssembly with Rust
 
-![Rust WASI](/static/img/tutorial/rust-wasi.jpg?raw=true)
+![Rust WASI](/static/img/tutorial/rustWasi.jpg?raw=true)
 
 ## Environment setup
 
