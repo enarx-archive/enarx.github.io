@@ -1,6 +1,6 @@
 # WebAssembly with Golang
 
-![Golang Webassembly](https://raw.githubusercontent.com/jnyfah/enarx.github.io/main/static/img/golang-wasi.jpg)
+![Golang Webassembly](https://raw.githubusercontent.com/jnyfah/enarx.github.io/main/static/img/tutorial/golang-wasi.jpg)
 
 ## Environment setup
 
@@ -63,7 +63,7 @@ func main(){
 ```bash
 go run main.go
 ```
-![Golang Screenshot1](https://raw.githubusercontent.com/jnyfah/enarx.github.io/main/static/img/golang1.png)
+![Golang Screenshot1](https://raw.githubusercontent.com/jnyfah/enarx.github.io/main/static/img/tutorial/golang1.png)
 
 
 
@@ -83,4 +83,4 @@ file main.wasm
 ```bash
 wasmtime main.wasm
 ```
-![Golang Screenshot2](https://raw.githubusercontent.com/jnyfah/enarx.github.io/main/static/img/golang2.png)
+![Golang Screenshot2](https://raw.githubusercontent.com/jnyfah/enarx.github.io/main/static/img/tutorial/golang2.png)
