@@ -18,7 +18,7 @@ Newcomers are very welcome, if you have any questions don't hesitate to join.
 
 ## Enarx Outreach Meeting
 
-There is also an outreach meeting on Tuesdays at 10:30 EST fortnightly at the following Jitsi Meet room:
+There is also an outreach meeting on Tuesdays at 11:30 EST fortnightly at the following Jitsi Meet room:
 
 https://meet.jit.si/EnarxOutreach
 
