@@ -31,7 +31,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'WebAssembly Guide',
-      items: ['WebAssembly/Introduction', 'WebAssembly/Rust-to-WASI', 'WebAssembly/Golang-to-WASI'],
+      items: ['WebAssembly/Introduction', 'WebAssembly/Rust', 'WebAssembly/Golang'],
     },  
     {
       type: 'category',
