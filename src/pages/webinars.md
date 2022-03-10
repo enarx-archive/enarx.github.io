@@ -19,3 +19,7 @@
 ## WebAssembly + Confidential Computing
 **Author**: Nick Vidal
 **Date**: March 4, 2022
+
+## WebAssembly on Exercism
+**Author**: Sean McBride
+**Date**: March 11, 2022
