@@ -114,7 +114,7 @@ const config = {
               },
               {
                 label: 'Webinars',
-                to: '/resources/tags/webinar',                
+                to: '/resources',                
               },
               {
                 label: 'Meetings',
@@ -218,7 +218,7 @@ const config = {
               },
               {
                 label: 'Webinars',
-                to: '/resources/tags/webinar',                
+                to: '/resources',                
               },
               {
                 label: 'Meetings',
