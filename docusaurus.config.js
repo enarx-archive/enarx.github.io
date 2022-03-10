@@ -101,12 +101,16 @@ const config = {
                 to: '/resources',                
               },
               {
-                label: 'Blog Posts',
+                label: 'Blog (Enarx)',
                 to: '/resources/tags/enarxs-blog',                
               },
               {
                 label: 'Articles',
                 to: '/resources/tags/article',                
+              },
+              {
+                label: 'Releases',
+                to: '/resources/tags/release',
               },
               {
                 label: 'Events',
@@ -142,6 +146,10 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/enarxproject',
+              },
+              {
+                label: 'Events',
+                to: '/events',
               },
               {
                 label: 'Webinars',
@@ -205,12 +213,16 @@ const config = {
                 to: '/resources',                
               },
               {
-                label: 'Blog Posts',
+                label: 'Blog (Enarx)',
                 to: '/resources/tags/enarxs-blog',                
               },
               {
                 label: 'Articles',
                 to: '/resources/tags/article',                
+              },
+              {
+                label: 'Releases',
+                to: '/resources/tags/release',
               },
               {
                 label: 'Events',
@@ -244,6 +256,10 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/enarxproject',
+              },
+              {
+                label: 'Events',
+                to: '/events',
               },
               {
                 label: 'Webinars',
