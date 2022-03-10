@@ -2,7 +2,7 @@
 slug: 2022-02-17-oc3-accessible
 title: "From zero to hero: making Confidential Computing accessible"
 authors: [nick]
-tags: [Event]
+tags: [Event, Webinar]
 ---
 
 **Title**: From zero to hero: making Confidential Computing accessible  

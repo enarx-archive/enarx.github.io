@@ -2,7 +2,7 @@
 slug: 2022-02-05-fosdem-wasm-cc
 title: "WebAssembly + Confidential Computing"
 authors: [nick]
-tags: [Event]
+tags: [Event, Webinar]
 ---
 
 **Title**: WebAssembly + Confidential Computing  
