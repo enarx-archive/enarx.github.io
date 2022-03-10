@@ -59,35 +59,99 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'Start/Introduction',
-            position: 'left',
+            type: 'dropdown',
             label: 'Docs',
+            to: '/docs/Start/Introduction',
+            position: 'left',
+            items: [
+              {
+                label: 'Getting Started',
+                to: '/docs/Start/Introduction',
+              },
+              {
+                label: 'Installation Guide',
+                to: '/docs/Installation/Introduction',
+              },
+              {
+                label: 'WebAssembly Guide',
+                to: '/docs/WebAssembly/Introduction',
+              },
+              {
+                label: 'Contributing Guide',
+                to: '/docs/Contributing/Introduction',
+              },
+              {
+                label: 'Fellowship Guide',
+                to: '/docs/Fellowship/Introduction',
+              },
+              {
+                label: 'Technical Overview',
+                to: '/docs/Technical/Introduction',
+              },
+            ],
           },
           {
-            to: '/resources',
+            type: 'dropdown',
             label: 'Resources',
-            position: 'left'
+            to: '/resources',
+            position: 'left',
+            items: [
+              {
+                label: 'All Resources',
+                to: '/resources',                
+              },
+              {
+                label: 'Blog Posts',
+                to: '/resources/tags/enarxs-blog',                
+              },
+              {
+                label: 'Articles',
+                to: '/resources/tags/article',                
+              },
+              {
+                label: 'Events',
+                to: '/resources/tags/event',                
+              },
+              {
+                label: 'Webinars',
+                to: '/resources/tags/webinar',                
+              },
+              {
+                label: 'Meetings',
+                to: '/resources/tags/meeting',                
+              },
+            ]
           },
           {
-            href: 'https://github.com/enarx/enarx',
-            label: 'GitHub',
+            type: 'dropdown',
+            label: 'Community',
             position: 'left',
-          },
-          {
-            href: '/meetings',
-            label: 'Meetings',
-            position: 'left',
-          },
-          {
-            href: '/events',
-            label: 'Events',
-            position: 'left',
-          },
-          {
-            href: 'https://chat.enarx.dev',
-            label: 'Chat',
-            position: 'left',
+            items: [
+              {
+                label: 'GitHub',
+                href: 'https://github.com/enarx/enarx',
+              },
+              {
+                label: 'Chat',
+                href: 'https://chat.enarx.dev',
+              },
+              {
+                label: 'Blog',
+                href: 'https://blog.enarx.dev',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/enarxproject',
+              },
+              {
+                label: 'Webinars',
+                to: '/webinars',
+              },
+              {
+                label: 'Meetings',
+                href: '/meetings',
+              },
+            ],
           },
           {
             href: 'https://github.com/enarx/enarx',
@@ -116,6 +180,10 @@ const config = {
                 to: '/docs/Installation/Introduction',
               },
               {
+                label: 'WebAssembly Guide',
+                to: '/docs/WebAssembly/Introduction',
+              },
+              {
                 label: 'Contributing Guide',
                 to: '/docs/Contributing/Introduction',
               },
@@ -133,37 +201,57 @@ const config = {
             title: 'Resources',
             items: [
               {
-                label: 'Resources',
-                to: '/resources',
+                label: 'All Resources',
+                to: '/resources',                
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/enarx/enarx',
+                label: 'Blog Posts',
+                to: '/resources/tags/enarxs-blog',                
               },
               {
-                label: 'Blog',
-                to: 'https://blog.enarx.dev',
+                label: 'Articles',
+                to: '/resources/tags/article',                
               },
-            ],
+              {
+                label: 'Events',
+                to: '/resources/tags/event',                
+              },
+              {
+                label: 'Webinars',
+                to: '/resources/tags/webinar',                
+              },
+              {
+                label: 'Meetings',
+                to: '/resources/tags/meeting',                
+              },
+            ]
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Meetings',
-                to: '/meetings',
-              },
-              {
-                label: 'Events',
-                to: '/events',
+                label: 'GitHub',
+                href: 'https://github.com/enarx/enarx',
               },
               {
                 label: 'Chat',
                 href: 'https://chat.enarx.dev',
               },
               {
+                label: 'Blog',
+                href: 'https://blog.enarx.dev',
+              },
+              {
                 label: 'Twitter',
                 href: 'https://twitter.com/enarxproject',
+              },
+              {
+                label: 'Webinars',
+                to: '/webinars',
+              },
+              {
+                label: 'Meetings',
+                href: '/meetings',
               },
             ],
           },
