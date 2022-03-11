@@ -51,7 +51,7 @@ html[data-theme='dark'] svg {
   margin-top: 8px;
 }
 
-iframe {
+iframe, video {
   aspect-ratio: 16 / 9;
   width: 100%;
 }
