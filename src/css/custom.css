@@ -50,3 +50,8 @@ html[data-theme='dark'] svg {
 .navbar__items > span {
   margin-top: 8px;
 }
+
+iframe {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
