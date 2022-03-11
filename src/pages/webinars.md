@@ -39,3 +39,7 @@
 ## WebAssembly on Exercism
 **Author**: Sean McBride  
 **Date**: March 11, 2022
+**Link**: https://www.youtube.com/watch?v=JO05l3o0Pp8  
+  
+<iframe src="https://www.youtube.com/embed/JO05l3o0Pp8" height="480" width="640" allowFullScreen></iframe>
+<hr />
