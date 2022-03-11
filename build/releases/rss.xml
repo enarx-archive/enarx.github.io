@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Enarx Blog</title>
+        <link>https://enarx.dev/releases</link>
+        <description>Enarx Blog</description>
+        <lastBuildDate>Mon, 25 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Alamo]]></title>
+            <link>https://enarx.dev/releases/alamo</link>
+            <guid>alamo</guid>
+            <pubDate>Mon, 25 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Alamo Fort]]></description>
+            <content:encoded><![CDATA[<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/1854_Alamo.jpg/800px-1854_Alamo.jpg" alt="Alamo Fort"/></p><h1>Source</h1><p><a href="https://github.com/enarx/enarx/release/tag/v0.1.0">https://github.com/enarx/enarx/release/tag/v0.1.0</a></p><h1>Not Production Ready</h1><p>This release is a developer-only, preview release. It is not production
+ready. We hope that you will experiment with it to see the progress we
+are making.</p><h1>What it Does</h1><p>This release includes two top-level commands <code>enarx info</code> and <code>enarx run</code>.</p><p>The <code>enarx info</code> command dumps information about your hardware platform. It
+can be useful for determining if your platform has support for one of
+the Enarx backends.</p><p>The <code>enarx run</code> command executes a WASM
+binary in a Keep using either the SEV or SGX backends. For testing and
+development, you can also run a WASM binary in the unencrypted KVM
+backend. Applications are currently limited due to our incomplete
+support for WASI.</p><h1>Requirements</h1><ol><li>A <a href="https://github.com/enarx/enarx/wiki/Reproducible-builds-and-Machine-setup">supported hardware platform</a></li><li>Rust nightly</li></ol><p>For build instructions, see our <a href="https://github.com/enarx/enarx/blob/main/BUILD.md">build documentation</a>.</p><h1>Known (Temporary) Issues</h1><ul><li>Logging is forcibly enabled and outputs to standard error</li><li>Incomplete WASI support</li><li>All IO is unencrypted</li><li>No attestation</li></ul><h1>SmashEx</h1><p>This release contains a mitigation for <a href="https://jasonyu1996.github.io/SmashEx/">the SmashEx attack</a>.</p><h1>Contributors</h1><p>A hearty thanks to everyone who has contributed over the last few years. This release would not be successful without you!</p><p>@MikeCamel @npmccallum @haraldh @connorkuehl @lkatalin @mbestavros @wgwoods
+@axelsimon @ueno @ziyi-yan @ambaxter @squidboylan @blazebissar @michiboo
+@matt-ross16 @jyotsna-penumaka @steveeJ @greyspectrum @rvolosatovs
+@lilienbm @CyberEpsilon @kubkon @nickvidal @uudiin @zeenix @sagiegurari</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
