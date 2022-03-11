@@ -26,6 +26,7 @@
 ## Introduction to Veracruz and WebAssembly  
 **Author**: Shale Xiong  
 **Date**: February 25, 2022
+<iframe frameborder="0" scrolling="no" width="640" height="480" src="https://drive.google.com/file/d/1h7m8749DvxrZ7DL4IDEnTjj42i2dZ5um/preview"></iframe>
 <hr />
 
 ## WebAssembly + Confidential Computing
