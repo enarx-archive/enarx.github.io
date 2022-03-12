@@ -101,7 +101,7 @@ const config = {
                 to: '/resources',                
               },
               {
-                label: 'Blog (Enarx)',
+                label: 'Blog',
                 to: '/resources/tags/enarxs-blog',                
               },
               {
@@ -148,15 +148,15 @@ const config = {
                 href: 'https://twitter.com/enarxproject',
               },
               {
-                label: 'Events',
+                label: 'Upcoming Events',
                 to: '/events',
               },
               {
-                label: 'Webinars',
+                label: 'Upcoming Webinars',
                 to: '/webinars',
               },
               {
-                label: 'Meetings',
+                label: 'Upcoming Meetings',
                 href: '/meetings',
               },
             ],
@@ -213,7 +213,7 @@ const config = {
                 to: '/resources',                
               },
               {
-                label: 'Blog (Enarx)',
+                label: 'Blog',
                 to: '/resources/tags/enarxs-blog',                
               },
               {
@@ -258,15 +258,15 @@ const config = {
                 href: 'https://twitter.com/enarxproject',
               },
               {
-                label: 'Events',
+                label: 'Upcoming Events',
                 to: '/events',
               },
               {
-                label: 'Webinars',
+                label: 'Upcoming Webinars',
                 to: '/webinars',
               },
               {
-                label: 'Meetings',
+                label: 'Upcoming Meetings',
                 href: '/meetings',
               },
             ],
