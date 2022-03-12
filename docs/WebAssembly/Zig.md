@@ -66,4 +66,4 @@ file main.wasm
 ```bash
 wasmtime main.wasm
 ```
-![Golang Screenshot2](/img/tutorial/zigWasmScreenshot.png?raw=true)
+![Zig Screenshot2](/img/tutorial/zigWasmScreenshot.png?raw=true)
