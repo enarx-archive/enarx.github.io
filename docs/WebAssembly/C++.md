@@ -85,4 +85,4 @@ Note that while executing this command, it might generate some warnings but you 
 ```bash
 wasmtime FibonacciBinary.wasm
 ```
-![C++ Screenshot2](/static/img/tutorial/C++WasmScreenshot.png?raw=true)
+![C++ Screenshot2](/static/img/tutorial/C++Wasm.png?raw=true)
