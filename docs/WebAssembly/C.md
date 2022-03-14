@@ -1,6 +1,6 @@
 # WebAssembly with C
 
-![C WebAssembly](static/img/tutorial/CWASI.png?raw=true)
+![C WebAssembly](/static/img/tutorial/CWASI.png?raw=true)
 
 ## Environment Setup 
 
