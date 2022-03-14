@@ -1,3 +1,5 @@
+# WebAssembly with Grain
+
 1. Setting up the environment
     
     To install Grain on your local system, follow the instructions given [here](https://grain-lang.org/docs/getting_grain), and to install Wasmtime to run our .wasm file, you can take a look at their [website](https://wasmtime.dev/).
@@ -6,7 +8,7 @@
     
     Open your preferred text editor and make a file with .gr extension. Grain recommends VS Code to work with .gr files. Installation of grain extension for VS code is highly recommended.
     
-    The fibonacci code in grain is as follows :
+    The Fibonacci code in Grain is as follows :
     
     
     ```
