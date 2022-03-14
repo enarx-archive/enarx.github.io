@@ -1,6 +1,6 @@
 # WebAssembly with C++
 
-![C++ WebAssembly](/static/img/tutorial/C++WASI.png?raw=true)
+![C++ WebAssembly](/img/tutorial/C++WASI.png?raw=true)
 
 ## Environment Setup 
 
@@ -64,7 +64,7 @@ int main(){
 ```bash
 g++ FibonacciSequence.cpp
 ```
-![C++ Screenshot1](/static/img/tutorial/C++ExecutionScreenshot.png?raw=true)
+![C++ Screenshot1](/img/tutorial/C++ExecutionScreenshot.png?raw=true)
 
 2. Compile to WASM Binary using the following Command:
 
@@ -85,4 +85,4 @@ Note that while executing this command, it might generate some warnings but you 
 ```bash
 wasmtime FibonacciBinary.wasm
 ```
-![C++ Screenshot2](/static/img/tutorial/C++Wasm.png?raw=true)
+![C++ Screenshot2](/img/tutorial/C++Wasm.png?raw=true)
