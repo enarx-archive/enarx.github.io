@@ -151,37 +151,6 @@ $ rustup toolchain install nightly-x86_64-unknown-linux-gnu
 $ rustup toolchain install nightly
 ```
  
-##### cargo-make
- 
-The Enarx project's continuous integration (CI) pipeline also relies on a few tools within the
-Rust ecosystem. Some examples of their uses would be to encourage a consistent coding style and
-to regularly check dependencies for any known security vulnerabilities. Contributors need to install cargo-make in order to use these tools while working on Enarx to streamline the contribution process.
- 
-`cargo-make` can be installed like so:
- 
-```bash
-$ cargo install cargo-make
-```
-
-The Enarx project makes heavy use of `cargo-make` to build and test code. We turned to `cargo-make` due to limitations with Rust's default handling of workspaces. Please familiarize yourself with some of the core workflows we use `cargo-make` for as it will come in handy during the contribution process.
-
-Note that we are assuming the following commands are ran from the root of the Enarx repository, however, many of these will also work if you're in a crate directory (such as `build` or `test`).
-
-Before running `cargo-make`, we must ensure **make** and **perl** are installed, otherwise openssl will fail to build.
-For Ubuntu, we must also ensure **pkg-config** are installed, otherwise openssl will fail to build.
-
-* `cargo make ci-flow`: run the entire continuous integration (CI) suite tests locally on your machine. We encourage you to run this before opening a PR as it will likely provide you feedback faster than our CI machines and save you the trouble of having to force push.
-
-* `cargo make integration-ci`: run the entire CI suite tests _and_ the integration tests. This is only useful if you have special hardware. No worries if you don't, Enarx's CI will soon run these tests for you.
-
-* `cargo make build`: build all the packages in the workspace.
-
-* `cargo make test`: test all the packages in the workspace.
-
-* `cargo make format`: run `cargo fmt` on each package in the workspace.
-
-* `cargo make clean`: run `cargo clean` on each package in the workspace.
- 
 ### Git environment set up
 You will also need to set up your git environment if you haven't already done so.
  
