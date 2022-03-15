@@ -4,13 +4,11 @@
 
 ## Environment Setup 
 
-To compile this demo, you must install
-the following:
+To compile this demo, you must install the following:
 
 ### C++
 
-Go to [C and C++ Installation](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170)
-and follow the instructions.
+Go to [C and C++ Installation](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170) and follow the instructions.
 
 ### Wasmer
 
@@ -28,15 +26,14 @@ You will find wasmtime at [wasmtime.dev](https://wasmtime.dev/)
 
 We will create a Simple C Program that will return us the fibonacci sequence of an Integer Input.
 
-Create a folder with the naming convention that you prefer. In My Case, I will be using
-"C-to-WASM" as the name of my folder.
+Create a folder "C-to-WASM":
 
 ```bash
 mkdir C-to-WASM
 cd C-to-WASM
 ```
 
-Create a file named `FibonacciSequence.c`, again you can choose any name for your file but make sure that you suffix it with the extension `.c`.
+Create a file named `FibonacciSequence.c`:
 
 ```C
 // Simple Program to calculate Fibonacci Sequence of an integer input
@@ -66,10 +63,9 @@ gcc FibonacciSequence.c
 ```
 ![C Screenshot1](/img/tutorial/CExecutionScreenshot.png?raw=true)
 
-2. Compile to WASM Binary using the following Command:
+2. Compile to WASM Binary using the following command:
 
-Since the Code has been written in C, we need to figure out a way to generate a WebAssembly Binary.
-That's why we will be using `wasienv` in order to generate a `.wasm` binary from this `c` file.
+Since the Code has been written in C, we need to figure out a way to generate a WebAssembly Binary. That's why we will be using `wasienv` in order to generate a `.wasm` binary from this `c` file.
 
 When you have your `c` file created, you can execute `wasicc`
 
