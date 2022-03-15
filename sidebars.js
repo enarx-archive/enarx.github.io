@@ -32,7 +32,12 @@ const sidebars = {
       type: 'category',
       label: 'WebAssembly Guide',
       items: ['WebAssembly/Introduction', 'WebAssembly/Rust', 'WebAssembly/C++', 'WebAssembly/C', 'WebAssembly/Golang', 'WebAssembly/Grain', 'WebAssembly/Zig'],
-    },  
+    },
+    {
+      type: 'category',
+      label: 'Networking Guide',
+      items: ['Networking/Introduction', 'Networking/TCP-Server', 'Networking/ROT13'],
+    },   
     {
       type: 'category',
       label: 'Contributing Guide',
