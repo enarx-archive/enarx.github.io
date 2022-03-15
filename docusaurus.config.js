@@ -77,6 +77,10 @@ const config = {
                 to: '/docs/WebAssembly/Introduction',
               },
               {
+                label: 'Networking Guide',
+                to: '/docs/Networking/Introduction',
+              },
+              {
                 label: 'Contributing Guide',
                 to: '/docs/Contributing/Introduction',
               },
@@ -190,6 +194,10 @@ const config = {
               {
                 label: 'WebAssembly Guide',
                 to: '/docs/WebAssembly/Introduction',
+              },
+              {
+                label: 'Networking Guide',
+                to: '/docs/Networking/Introduction',
               },
               {
                 label: 'Contributing Guide',
