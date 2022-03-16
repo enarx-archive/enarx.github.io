@@ -20,11 +20,11 @@ harald:
   url: https://github.com/haraldh
   image_url: https://github.com/haraldh.png
 
-will:
-  name: Will Woods
-  title: Senior Software Engineer
-  url: https://github.com/wgwoods
-  image_url: https://github.com/wgwoods.png
+paul:
+  name: Paul Pietkiewicz
+  title: Product Manager
+  url: https://github.com/platten
+  image_url: https://github.com/platten.png
 
 nick:
   name: Nick Vidal
