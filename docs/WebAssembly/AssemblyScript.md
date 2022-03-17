@@ -1,3 +1,5 @@
+# WebAssembly with AssemblyScript
+
 Before we begin, it’s necessary that you have `npm` in your system.
 
 1. Setting up the environment
