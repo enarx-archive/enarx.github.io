@@ -33,7 +33,7 @@
     grain fibonacci.gr
     ```
     
-    This would print `21` on your terminal and generate a `fibonacci.gr.wasm` file.
+    This would print `13` on your terminal and generate a `fibonacci.gr.wasm` file.
     
 
 4. Running .wasm file in Wasmtime
