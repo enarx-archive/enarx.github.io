@@ -20,18 +20,18 @@ You will find wasmtime at [wasmtime.dev](https://wasmtime.dev/)
  rustup target install wasm32-wasi
 ```
 
- To get started, lets start with a very simple demo that caculates fibonacci sequence, According to the trusty Wikipedia, the Fibonacci sequence is characterized by the fact that every number after the first two is the sum of the two preceding ones.
+ To get started, lets use a demo that caculates a Fibonacci sequence (i.e. every number after the first two is the sum of the two preceding ones).
 
 
 ## Rust Code
 
-First create a new binary crate using the command below:
+First create a new project using the command below:
 
 ```bash
 cargo new demo
 ```
 
-You can use any IDE of your choice and open up this project folder, add this on `main.rs` file
+You can use any IDE of your choice and open up this project folder, add this to the `main.rs` file:
   
 ```rust
 use std::io;

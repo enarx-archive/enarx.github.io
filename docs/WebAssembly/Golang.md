@@ -16,7 +16,7 @@ A Go compiler intended for use in small places such as microcontrollers, WebAsse
 
 Go to [tinygo.org](https://tinygo.org/getting-started/install/) and follow the instructions.
 
-please note: Tinygo requires golang version 1.15 through 1.17
+Please note: Tinygo requires golang version 1.15 through 1.17
 
 ### Wasmtime
 
@@ -24,15 +24,16 @@ You will find wasmtime at [wasmtime.dev](https://wasmtime.dev/)
 
 ## Go Code
 
-we would create a simple Go program that calculates caculates the fibonacci sequence of an integer input.
+Let's create a simple Go program that caculates the fibonacci sequence of an integer input.
 
-create a folder with a name of your choice, i would be using "Golang-to-WASI" as the name of my folder.
+Create a folder "Golang-to-WASI":
 
 ```bash
 cd Golang-to-WASI
 go mod init Golang-to-WASI
 ```
-create a file `main.go`, add following code into your main.go file and save the file.
+
+Create a file `main.go`, and add the following:
 
 ```go
 // Simple Program to calculate fibonacci of input
@@ -55,25 +56,26 @@ func main(){
     fmt.Println("Fibonacci of", n , "is", FibonacciRecursion(n));
 }
 
+
 ```
-## Compiling Go code
+## Compiling the Go code
 
 1. Compile using `go` 
 
 ```bash
 go run main.go
 ```
+
 ![Golang Screenshot1](/img/tutorial/golangRunScreenshot.png?raw=true)
 
 
-
-2. compile to WASM using the following command:
+2. Compile to WASM using the following command:
 
 ```
 tinygo build -wasm-abi=generic -target=wasi -o main.wasm main.go
 ```
 
-3. The wasm file created in the folder
+3. The wasm file created in the folder:
 
 ```bash
 file main.wasm
