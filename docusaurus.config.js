@@ -51,6 +51,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        appId: '2R4MLGYJE6',
+        apiKey: 'bba347a8f20881dc32ec2b1eccb47f5e',  
+        indexName: 'enarx',
+        contextualSearch: true,
+        searchPagePath: 'search',
+      },
       navbar: {
         title: 'Enarx',
         logo: {
