@@ -41,7 +41,7 @@ The commit message is primarily the place for documenting the why.
 
 Commit message titles should follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
-Format is `<type>[optional scope]: <description>`, where `type` is one of:
+Format is `<type>: <description>`, where `type` is one of:
 
 * fix: A bug fix
 * feat: A new feature
@@ -54,12 +54,6 @@ Format is `<type>[optional scope]: <description>`, where `type` is one of:
 * chore: Other changes that don't modify src or test files
 * build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
 * ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
-
-`scope` should be the module name (without numbers) or:
-
-* cli: for the dracut command line interface
-* rt: for the dracut initramfs runtime logic
-* functions: for general purpose dracut functions
 
 Commit messages are checked with [Commisery](https://github.com/tomtom-international/commisery).
 
