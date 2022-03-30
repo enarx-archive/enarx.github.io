@@ -70,7 +70,7 @@ Since the Code has been written in C, we need to figure out a way to generate a 
 When you have your `c` file created, you can execute `wasicc`
 
 ```bash
- wasicc Fibonacci.c -o FibonacciBinary.wasm
+ wasicc FibonacciSequence.c -o FibonacciBinary.wasm
 ```
 
 Note that while executing this command, it might generate some warnings but you can ignore them.
