@@ -70,7 +70,7 @@ Since the Code has been written in C++, we need to figure out a way to generate 
 When you have your `cpp` file created, you can execute `wasic++`
 
 ```bash
- wasic++ Fibonacci.cpp -o FibonacciBinary.wasm
+ wasic++ FibonacciSequence.cpp -o FibonacciBinary.wasm
 ```
 
 Note that while executing this command, it might generate some warnings but you can ignore them.
