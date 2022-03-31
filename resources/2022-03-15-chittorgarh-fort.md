@@ -4,7 +4,7 @@ title: "Chittorgarh Fort: Enarx 0.3.0"
 authors: [paul]
 tags: [Enarx's Blog, Release]
 ---
-The Enarx project has published its third release, version 0.3.0, called Chittorgarh. It now supports:
+The Enarx project has published its third release, version 0.3.0, called Chittorgarh. It now provides:
 - TLS support,
 - attestation & validation support,
 - improved SGX support, and
