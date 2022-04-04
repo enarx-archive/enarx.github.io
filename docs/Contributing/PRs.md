@@ -21,13 +21,41 @@ Issue a `git log` to see that your 5 commits have now become one.
 
 **Note:** Never mark your oldest commit (the oldest commit you want to use) with `f` or `fixup`. This will squash all of your commits, including that one, into the commit that came right before yours.
 
-### Give your commit a descriptive message
+### Commit messages
+Pull requests to Enarx repositories should contain **logical commits**. In other words, commits should only contain changes relevant to one feature or component of the code. This helps repositories maintain a coherent and understandable history of code changes.
 
-The commit whose message you want to change is assumed to be the most recent one in the steps below. 
+To that end, **merge commits are strictly not allowed**. It is expected that any code up for a pull request will be rebased on top of the upstream Enarx repository's `main` branch. Fast-forward-only merges are acceptable if needed.
 
-To give your commit an [appropriately descriptive message](https://chris.beams.io/posts/git-commit/), you can use `git commit --amend` as described [here](https://help.github.com/en/github/committing-changes-to-your-project/changing-a-commit-message).
+We recommend reading this [excellent article](https://chris.beams.io/posts/git-commit/) to understand how to write a good git commit message.
 
-Alternatively, you can use `git rebase -i HEAD~1`. Mark the commit with `r` or `reword` in the menu that comes up, save and exit from the menu, and you'll be brought to another menu where you can edit the message. This method can also be combined with squashing your commits.
+Commit messages should answer these questions:
+
+* What?: a short summary of what you changed in the subject line.
+* Why?: what the intended outcome of the change is (arguably the most important piece of information that should go into a message).
+* How?: if multiple approaches for achieving your goal were available, you also want to explain why you chose the used implementation strategy.
+  Note that you should not explain how your change achieves your goal in your commit message.
+  That should be obvious from the code itself.
+  If you cannot achieve that clarity with the used programming language, use comments within the code instead.
+
+The commit message is primarily the place for documenting the why.
+
+Commit message titles should follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
+
+Format is `<type>: <description>`, where `type` is one of:
+
+* fix: A bug fix
+* feat: A new feature
+* perf: A code change that improves performance
+* refactor: A code change that neither fixes a bug nor adds a feature
+* style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+* test: Adding missing tests or correcting existing tests
+* docs: Documentation only changes
+* revert: Reverts a previous commit
+* chore: Other changes that don't modify src or test files
+* build: Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)
+* ci: Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)
+
+Commit messages are checked with [Commisery](https://github.com/tomtom-international/commisery).
 
 ### Rebase onto upstream/main
 
