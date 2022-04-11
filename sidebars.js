@@ -50,6 +50,11 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Enarx Repo Guide',
+      items: ['Repo/Introduction','Repo/enarx','Repo/sallyport','Repo/ctr0stack','Repo/vsdo','Repo/rct1','Repo/xsave','Repo/flagset','Repo/sgx','Repo/mmarinus','Repo/iocuddle','Repo/noted','Repo/lset','Repo/nbytes','Repo/uabs','Repo/signrel','Repo/linux','Repo/spdx'],
+    },
+    {
+      type: 'category',
       label: 'Technical Overview',
       items: ['Technical/Introduction','Technical/Problem','Technical/Design','Technical/Threat','Technical/Trust-Architecture','Technical/TEE','Technical/Components','Technical/Runtime','Technical/WebAssembly','Technical/Process-Flow','Technical/Syscall-Proxy','Technical/Hardware','Technical/Builds','Technical/Vulnerabilities-Attacks','Technical/AMD-SEV','Technical/AMD-SEV-Attestation','Technical/AMD-SNP','Technical/Intel-SGX','Technical/Intel-SGX-Measurement','Technical/Cases','Technical/FAQ',],
     },
