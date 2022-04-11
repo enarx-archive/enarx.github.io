@@ -59,3 +59,11 @@
   
 <iframe src="https://www.youtube.com/embed/03uAyT_UWA0" height="480" width="640" allowFullScreen></iframe>
 <hr />
+
+## Enarx: The Platform Abstraction for Trusted Execution Environments
+**Author**: Shraddha Inamdar
+**Date**: April 9, 2022
+**Link**: https://www.youtube.com/watch?v=yh8R7xYapHA  
+  
+<iframe src="https://www.youtube.com/embed/yh8R7xYapHA" height="480" width="640" allowFullScreen></iframe>
+<hr />
