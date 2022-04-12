@@ -20,8 +20,8 @@ In this guide, you'll find a walkthrough of the Enarx repositories on [GitHub](h
 - [xsave](xsave): save x86 cpu state
 - [flagset](flagset): handle flags
 - [sgx](sgx): set of data structures related to SGX
-- [mmarinus](mmarinus): rust mmap (memory map) wrapper (runtime-safe)
-- [iocuddle](iocuddle): rust ioctl (input/output control) wrapper (runtime-safe)
+- [mmarinus](mmarinus): Rust mmap (memory map) wrapper (runtime-safe)
+- [iocuddle](iocuddle): Rust ioctl (input/output control) wrapper (runtime-safe)
 - [noted](noted): macro to generate notes (define size of enclave, etc)
 
 ## Helper crates
