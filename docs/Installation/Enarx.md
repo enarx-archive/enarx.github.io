@@ -16,12 +16,12 @@ You can install Enarx from GitHub, crates.io, or Nix.
 
 :::note
 
-Rust version nightly-2022-03-14 is required when installing Enarx 0.3.0 from crates.io.
+Rust version nightly-2022-04-11 is required when installing Enarx 0.3.0 from crates.io.
 
 :::
 
-    $ rustup toolchain install nightly-2022-03-14 -t x86_64-unknown-linux-musl,x86_64-unknown-linux-gnu
-    $ cargo +nightly-2022-03-14 install --bin enarx -- enarx
+    $ rustup toolchain install nightly-2022-04-11 -t x86_64-unknown-linux-musl,x86_64-unknown-linux-gnu
+    $ cargo +nightly-2022-04-11 install --bin enarx -- enarx
 
 
 ## Install from Nix
