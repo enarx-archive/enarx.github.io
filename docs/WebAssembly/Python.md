@@ -51,7 +51,7 @@ else:
 - Run the python fibonacci code in wasmtime using the command
 ```bash
 wasmtime run --mapdir=$(pwd)/opt::opt \
-             -- opt/wasi-python/bin/python3.wasm -c "$(cat $HOME/fib.py)"
+             -- opt/wasi-python/bin/python3.wasm -c "$(cat $(pwd)/fib.py)"
 ```
 output:
 ```bash
@@ -67,8 +67,4 @@ Fibonacci sequence:
 21
 34
 ```
-
-## References
-- https://www.programiz.com/python-programming/examples/fibonacci-sequence
-- https://github.com/singlestore-labs/python-wasi/blob/main/README.md
 
