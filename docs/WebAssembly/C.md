@@ -1,42 +1,22 @@
-# WebAssembly with C
-
-![C WebAssembly](/img/tutorial/CWASI.png?raw=true)
+# WebAssembly With C 
 
 ## Environment Setup 
 
 To compile this demo, you must install the following:
 
-### C++
-
-Go to [C and C++ Installation](https://docs.microsoft.com/en-us/cpp/build/vscpp-step-0-installation?view=msvc-170) and follow the instructions.
-
-### Wasmer
-
-[Wasmer](https://docs.wasmer.io/) is an open-source runtime for executing WebAssembly on the Server.
-
-#### Wasienv
-
-[Wasienv](https://github.com/wasienv/wasienv) is a tool to compile different programming languages to WebAssembly, so you can run your programs on the Browser, or in the Server.
-
 ### Wasmtime
 
-You will find wasmtime at [wasmtime.dev](https://wasmtime.dev/)
+You can install it from [Wasmtime.dev](https://www.wasmtime.dev)
 
-## C Code Snippet
+### Wasi-Sdk
 
-We will create a Simple C Program that will return us the fibonacci sequence of an Integer Input.
+Next you will have to download the latest release version of Wasi-Sdk. You can download it from here: [Wasi-Sdk](https://github.com/WebAssembly/wasi-sdk/releases) and download the binary as per your Operating System.
 
-Create a folder "C-to-WASM":
+### Steps
 
-```bash
-mkdir C-to-WASM
-cd C-to-WASM
-```
-
-Create a file named `FibonacciSequence.c`:
+First of all, create a new directory. I am naming my Directory as `C-Tutorial `. In this directory, create a new file which will contain your `C Source Code` and then paste the following code:
 
 ```C
-// Simple Program to calculate Fibonacci Sequence of an integer input
 #include<stdio.h>
 
 int FibonacciSequence(int num) {
@@ -52,33 +32,23 @@ int main(){
     
     printf("Fibonacci Sequence term at %d is %d " , n , FibonacciSequence(n));
 }
+
 ```
 
-## Compiling the C Code
+After you are done creating your Source Code File,  fire up your Terminal/Bash and follow the following steps:
 
-1. Compiling Using `gcc`
+Navigate to the directory where you downloaded the `wasi-sdk` directory and inside that directory navigate to `~/Downloads/wasi-sdk-{Release_Version}/bin/clang`.  You can replace the `{Release_Version}` with the specified version of `wasi-sdk` that you have downloaded at the time you are following this tutorial. In my case it is `wasi-sdk-14  
+
+The `wasi-sdk` provides a `clang` which is configured to target WASI and we will use that in order to generate our WASM Binary.
 
 ```bash
-gcc FibonacciSequence.c
-```
-![C Screenshot1](/img/tutorial/CExecutionScreenshot.png?raw=true)
-
-2. Compile to WASM Binary using the following command:
-
-Since the Code has been written in C, we need to figure out a way to generate a WebAssembly Binary. That's why we will be using `wasienv` in order to generate a `.wasm` binary from this `c` file.
-
-When you have your `c` file created, you can execute `wasicc`
-
-```bash
- wasicc FibonacciSequence.c -o FibonacciBinary.wasm
+~/Downloads/wasi-sdk-14.0/bin/clang demo.c -o demo.wasm
 ```
 
-Note that while executing this command, it might generate some warnings but you can ignore them.
+Now you will have your WASM Binary `demo.wasm ` in your `C-Tutorial` directory and now you can run it on Wasmtime. 
 
-3. Now, you will have a new `FibonacciBinary.wasm` file ready in your Directory
+`wasmtime demo.wasm`
 
-4. Executing it using WASM Runtime
-```bash
-wasmtime FibonacciBinary.wasm
-```
-![C Screenshot2](/img/tutorial/CWasmScreenshot.png?raw=true)
+Additionally, you can also run it in the `Enarx Keep` as well:
+
+`enarx run demo.wasm`
