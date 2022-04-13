@@ -9,6 +9,8 @@ To compile this demo, you must install the following :
 [Javy](https://github.com/Shopify/javy) is a JavaScript to WebAssembly Toolchain. It is currently used for the 
 beta Shopify Scripts Platform.
 
+A Quick Note that, all of the build dependencies of the Javy Toolchain have to be installed after forking the Github Repository on your Machine and then executing all of the commands which are required for installation of the Build Dependencies.
+
 ### msgpack-tools
 
 [msgpack-tools](https://github.com/ludocode/msgpack-tools) contains simple command-line utilities for converting MessagePack to JSON and vice-versa.
