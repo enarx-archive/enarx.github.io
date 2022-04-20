@@ -73,3 +73,5 @@
 **Date**: April 19, 2022  
 **Link**: https://confidentialcomputing.io/webinar-fireside-chat-trust-in-computer-systems-and-the-cloud/  
   
+<iframe src="https://www.youtube.com/embed/8X4Ubv4fxwk" height="480" width="640" allowFullScreen></iframe>
+<hr />
