@@ -1,7 +1,7 @@
 # Enarx website & documentation
 
 <p align="center">
-<img align="center" src="/static/img/enarx.png" height="10%" width="40%"/>
+<img align="center" src="/static/assets/images/enarx-word-black-300x750-bg.png"/>
 </p>
 
 This repository contains the assets required to build the [Enarx website and documentation](https://enarx.dev/). We're glad that you want to contribute!
