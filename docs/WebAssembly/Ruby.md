@@ -8,7 +8,7 @@ Beginning in [Ruby 3.2 Preview 1](https://www.ruby-lang.org/en/news/2022/04/03/r
 
 ## Instructions
 
-1. Download the pre-compiled Ruby Wasm file from the [Ruby.wasm releases page](https://github.com/ruby/ruby.wasm/releases).
+1. Download the pre-compiled Ruby Wasm file ("ruby-head-wasm32-unknown-wasi-full.tar.gz") from the [Ruby.wasm releases page](https://github.com/ruby/ruby.wasm/releases).
     * Decompress the file.
     * `cd head-wasm32-unknown-wasi-full` Change directory to the newly created directory.
     * `mv usr/local/bin/ruby ruby.wasm`
