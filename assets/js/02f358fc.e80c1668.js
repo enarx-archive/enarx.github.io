@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[8219],{1302:function(e){e.exports=JSON.parse('{"permalink":"/resources/tags/paper","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Resources"}')}}]);

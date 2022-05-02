@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[5941],{28131:function(e){e.exports=JSON.parse('{"allTagsPath":"/resources/tags","name":"Red Hat\'s Blog","count":4,"permalink":"/resources/tags/red-hats-blog"}')}}]);

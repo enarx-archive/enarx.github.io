@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[1270],{16327:function(s){s.exports=JSON.parse('{"allTagsPath":"/resources/tags","name":"Profian\'s Blog","count":3,"permalink":"/resources/tags/profians-blog"}')}}]);

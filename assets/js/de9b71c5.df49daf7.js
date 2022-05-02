@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[3047],{88337:function(e){e.exports=JSON.parse('{"permalink":"/resources/tags/red-hats-blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Resources"}')}}]);
