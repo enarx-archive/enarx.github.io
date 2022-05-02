@@ -47,7 +47,7 @@ Instead of `devtoolset-9` you can choose `devtoolset-10` or later versions.
 
 :::
 
-### Debian / Ubuntu
+### Debian / Ubuntu / Raspberry Pi OS
 
     $ sudo apt update
     $ sudo apt install git curl gcc pkg-config libssl-dev musl-tools python3-minimal
