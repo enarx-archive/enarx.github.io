@@ -39,7 +39,7 @@ pub fn main() !void {
     try stdout.print("is: {d} \n ", .{fibonacci(x)}  );
 }
 ```
-## Compiling Go code
+## Compiling Zig code
 
 1. Compile using `zig` 
 

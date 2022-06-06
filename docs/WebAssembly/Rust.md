@@ -82,14 +82,14 @@ cargo build --target=wasm32-wasi
 3. The wasm file created in release folder of wasi32
 
 ```bash
-file target/wasm32-wasi/release/demo.wasm
+file target/wasm32-wasi/debug/demo.wasm
 ```
 
 4. Wasm runtime
 
 ```bash
 
-wasmtime target/wasm32-wasi/release/demo.wasm
+wasmtime target/wasm32-wasi/debug/demo.wasm
 ```
 ![Rust Screenshot3](/img/tutorial/rustWasm.png?raw=true)
 
