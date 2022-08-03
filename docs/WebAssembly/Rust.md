@@ -25,10 +25,11 @@ You will find wasmtime at [wasmtime.dev](https://wasmtime.dev/)
 
 ## Rust Code
 
-First create a new project using the command below:
+First create a new project and switch to `demo` directory using the command below:
 
 ```bash
 cargo new demo
+cd demo
 ```
 
 You can use any IDE of your choice and open up this project folder, add this to the `main.rs` file:
